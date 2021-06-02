@@ -28,4 +28,5 @@ printf "${RED}Instalação snap \n\n${NC}"
 # sudo snap install -y bitwarden \
 # spotify \
 # code \
+# notion-snap
 # printf "${RED}Instalação via SNAP\n\n${NC}"
