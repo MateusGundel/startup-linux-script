@@ -1,0 +1,1 @@
+PS1="\[\033[38;5;10m\]\u@\h\[$(tput sgr0)\]:\[$(tput sgr0)\]\[\033[38;5;12m\]\W\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;179m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[$(tput sgr0)\]\\$\[$(tput sgr0)\] "
